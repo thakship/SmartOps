@@ -1,0 +1,19 @@
+.linetop{
+	font-size:12px;
+	font: Geneva, Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	margin-top:5px;
+}
+.topline{
+	font-size:20px;
+	margin-left:10px;
+	margin-top:5px;
+}
+.txt{
+color:#000000;
+}
+.val1{
+	color:#FF0000;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}

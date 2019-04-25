@@ -1,0 +1,3 @@
+function pageClose(){ //Page Close Function.......
+	parent.location.href = parent.location.href;
+}

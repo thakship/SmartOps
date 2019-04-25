@@ -1,0 +1,84 @@
+select '07' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '07') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '07') AS APP_CREATED
+FROM DUAL	    
+UNION ALL	
+select '08' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '08') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '08') AS APP_CREATED
+FROM DUAL	    
+UNION ALL				  	
+select '09' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '09') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '09') AS APP_CREATED
+FROM DUAL	    
+UNION ALL				  	
+select '10' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '10') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '10') AS APP_CREATED
+FROM DUAL	    
+UNION ALL				  	
+select '11' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '11') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '11') AS APP_CREATED
+FROM DUAL	    
+UNION ALL				  	
+select '12' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '12') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '12') AS APP_CREATED
+FROM DUAL	    
+UNION ALL		
+select '13' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '13') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '13') AS APP_CREATED
+FROM DUAL	    
+UNION ALL	
+select '14' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '14') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '14') AS APP_CREATED
+FROM DUAL	    
+UNION ALL	
+select '15' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '15') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '15') AS APP_CREATED
+FROM DUAL	    
+UNION ALL	
+select '16' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '16') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '16') AS APP_CREATED
+FROM DUAL	    
+UNION ALL	
+select '17' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '17') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '17') AS APP_CREATED
+FROM DUAL	    
+UNION ALL	
+select '18' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '18') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '18') AS APP_CREATED
+FROM DUAL	    
+UNION ALL	
+select '19' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '19') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '19') AS APP_CREATED
+FROM DUAL	    
+UNION ALL			  	
+select '20' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '20') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '20') AS APP_CREATED
+FROM DUAL	    
+UNION ALL			
+select '21' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '21') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '21') AS APP_CREATED
+FROM DUAL	    
+UNION ALL																	
+select '22' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '22') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '22') AS APP_CREATED
+FROM DUAL	    
+UNION ALL	
+select '23' AS HRS,
+		 (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.enterDateTime) >= ':2' AND DATE(chs.enterDateTime) <= ':3' AND  HOUR(chs.enterDateTime) = '23') AS ENTERED,		  
+	    (SELECT COUNT(*) FROM `cdb_helpdesk` AS chs WHERE chs.`cat_code` = '1014' AND DATE(chs.appcrdate) >= ':2' AND DATE(chs.appcrdate) <= ':3' AND  HOUR(chs.appcrdate) = '23') AS APP_CREATED
+FROM DUAL
